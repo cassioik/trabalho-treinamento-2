@@ -30,7 +30,7 @@ public class Aplicação
                     TelaUsuario.processar();
                     break;
                 case 2:
-                    // TODO - Cadastro de funcionários
+                    TelaFuncionario.processar();
                     break;
                 case 3:
                     // TODO - Cadastro de salas
