@@ -3,6 +3,7 @@ package dao;
 import model.Curso;
 import model.Funcionario;
 import model.Instrutor;
+import model.Sala;
 import model.Usuario;
 
 public class DaoFactory
@@ -25,5 +26,10 @@ public class DaoFactory
     public static Dao<Funcionario, String> getFuncionarioDao()
     {
         return new TabelaFuncionario();
+    }
+    
+    public static Dao<Sala, String> getSalaDao()
+    {
+        return new TabelaSala();
     }
 }

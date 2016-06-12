@@ -33,7 +33,7 @@ public class Aplicação
                     TelaFuncionario.processar();
                     break;
                 case 3:
-                    // TODO - Cadastro de salas
+                    TelaSala.processar();
                     break;
                 case 4:
                     TelaInstrutor.processar();
