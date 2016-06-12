@@ -36,7 +36,7 @@ public class Aplicação
                     // TODO - Cadastro de salas
                     break;
                 case 4:
-                    // TODO - Cadastro de instrutores
+                    TelaInstrutor.processar();
                     break;
                 case 5:
                     // TODO - Cadastro de cursos
