@@ -39,7 +39,7 @@ public class Aplicação
                     TelaInstrutor.processar();
                     break;
                 case 5:
-                    // TODO - Cadastro de cursos
+                    TelaCurso.processar();
                     break;
                 case 6:
                     // TODO - Cadastro de turmas
